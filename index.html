@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin DashBoard</title>
+    <!-- BootStrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- First Container -->
+    <div class="d-flex" id="wrapper">
+        <!-- SideBar start here -->
+        <div class="bg-white" id="sidebar-wrapper">
+            <div class="sidebar-heading text-center py-4 fw-bold ps-4 primary-text text-uppercase border-bottom">
+                <i class="fas fa-user-secret me-2"></i>Codersbite
+            </div>
+            <div class="list-group list-group-flush my-3">
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text active">
+                    <i class="fas fa-tachometer-alt me-2"></i>DashBoard
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-project-diagram me-2"></i>project
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-chart-line me-2"></i>Analytics
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-paperclip me-2"></i>Reports
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-shopping-cart me-2"></i>Store Mng
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-gift me-2"></i>Products
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-comment-dots me-2"></i>Chat
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                    <i class=" fas fa-map-maker-alt me-2"></i>Outlet
+                </a>
+                <a href="#" class="list-group-item list-group-item-action bg-transparent text-danger fw-bold">
+                    <i class=" fas fa-project-diagram me-2"></i>Logout
+                </a>
+            </div>
+        </div>
+        <!-- SideBar ends here -->
+
+
+        <!-- Page Content Wrapper -->
+
+        <div id="page-content-wrapper">
+            <!-- NavBar -->
+            <nav class="nav navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+                <div class="d-flex align-items-center">
+                    <i class="fas fa-align-left me-3 ps-4 primary-text" id="menu-toggle"></i>
+                    <h2 class="fs-2 mb-0">DashBoard</h2>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="nabar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item-dropdown">
+                            <a href="#" class="nav-link dropdown-toggle fw-bold second-text"
+                            id="navbarDropdown" role="button" aria-bs-toggle="dropdown"
+                            aria-expanded="false">
+                                <i class="fas fas-user me-2"></i>Jhon deo
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="#" class="dropdown-item">Profile</a></li>
+                                    <li><a href="#" class="dropdown-item">Setting</a></li>
+                                    <li><a href="#" class="dropdown-item">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navbar Ends Here -->
+
+            <div class="container-fluid px-4">
+                <!-- first Row -->
+               <div class="row g-3 my-2">
+                <div class="col-md-3">
+                    <div class="p-3 shadow-sm d-flex bg-white justify-content-around align-items-center
+                    rounded">
+                        <div>
+                            <h3 class="fs-2">720</h3>
+                            <p class="fs-5">Products</p>
+                        </div>
+                        <i class="fas fa-gift fs-1 primary-text border rounded-full p-3 secondary-bg "></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 shadow-sm d-flex bg-white justify-content-around align-items-center
+                    rounded">
+                        <div>
+                            <h3 class="fs-2">4920</h3>
+                            <p class="fs-5">sales</p>
+                        </div>
+                        <i class="fas fa-hand-holding fs-1 primary-text border rounded-full p-3 secondary-bg "></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 shadow-sm d-flex bg-white justify-content-around align-items-center
+                    rounded">
+                        <div>
+                            <h3 class="fs-2">3899</h3>
+                            <p class="fs-5">delivery</p>
+                        </div>
+                        <i class="fas fa-truck fs-1 primary-text border rounded-full p-3 secondary-bg "></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 shadow-sm d-flex bg-white justify-content-around align-items-center
+                    rounded">
+                        <div>
+                            <h3 class="fs-2">%25</h3>
+                            <p class="fs-5">Increase</p>
+                        </div>
+                        <i class="fas fa-chart-line fs-1 primary-text border rounded-full p-3 secondary-bg "></i>
+                    </div>
+                </div>
+               </div>
+
+               <!-- Second Row -->
+               <div class="row my-5">
+                <h3 class="fs-4 mb-3">Recent delivery</h3>
+                <div class="col">
+                    Paste A simple bootstrap table for data!!!!!!!!!!!!!!
+                </div>
+               </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- BootStrap JS -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+   
+    <script>
+        var el = document.getElementById("wrapper")
+        var toggleButton = document.getElementById("menu-toggle")
+
+        toggleButton.onclick = function () {
+            el
+        }.classList.toggle("toggled")
+    </script>
+
+
+</body>
+</html>
